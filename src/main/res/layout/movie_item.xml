@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:minWidth="150dp"
+    android:layout_margin="5dp"
+    android:layout_height="200dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:padding="2dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/movie_img"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/star_container"/>
+    <TextView
+        android:id="@+id/movie_name"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="千与千寻"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
