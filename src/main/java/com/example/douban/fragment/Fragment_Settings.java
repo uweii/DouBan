@@ -134,7 +134,7 @@ public class Fragment_Settings extends Fragment {
         ll_source_code.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.baidu.com"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/uweii/DouBan.git"));
                 startActivity(intent);
             }
         });
