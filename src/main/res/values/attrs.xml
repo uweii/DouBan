@@ -2,4 +2,5 @@
 <resources>
     <attr name="main_bg" format="reference|color" />
     <attr name="main_textcolor" format="reference|color"/>
+    <attr name="sub_textcolor" format="reference|color"/>
 </resources>

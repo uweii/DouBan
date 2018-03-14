@@ -25,11 +25,13 @@
     <style name="dayTheme">
         <item name="main_bg">#fff</item>
         <item name="main_textcolor">#000</item>
+        <item name="sub_textcolor">#666</item>
     </style>
 
     <!--夜间主题-->
     <style name="nightTheme">
-        <item name="main_bg">#1e1e2a</item>
-        <item name="main_textcolor">#666</item>
+        <item name="main_bg">#666</item>
+        <item name="main_textcolor">#0a8</item>
+        <item name="sub_textcolor">#0a8</item>
     </style>
 </resources>
